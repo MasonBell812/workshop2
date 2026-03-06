@@ -5,7 +5,7 @@ public class Main {
     // Static list of users, acting as a database
     private static ArrayList<User> users = new ArrayList<>();
 
-    public AuthenticationService authService = new AuthenticationService(users);
+    public static AuthenticationService authService = new AuthenticationService(users);
     private static boolean isRunning = true;
 
     /**
